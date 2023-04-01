@@ -3,10 +3,10 @@ import Svayper from '../Works/swiper';
 
 function Works() {
   return (
-    <section className="container mx-auto py-10 md:py-14 lg:py-16 xl:py-20 !px-[3rem] ">
+    <section className="container mx-auto py-10 md:py-14 lg:py-16 xl:py-20 !px-[5rem] ">
       <div
         id="portfolio"
-        className="flex flex-wrap justify-between items-center "
+        className="flex flex-wrap justify-between items-center"
       >
         <div>
           <h3 className="font-bold md:text-xl">Works</h3>

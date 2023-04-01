@@ -17,16 +17,33 @@ function Svayper() {
   return (
     <>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={20}
+        breakpoints={{
+          '@0.00': {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          '@0.75': {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          '@1.00': {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          '@1.50': {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        }}
+        slidesPerView={4}
+        spaceBetween={10}
         loop={true}
-        centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay]}
-        className="mySwiper swiper-h !h-64"
+        className="mySwiper swiper-h !h-48"
       >
         {datas.map((data, index) => (
           <SwiperSlide className="rounded-[30px] " key={index}>

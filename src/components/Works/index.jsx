@@ -17,7 +17,7 @@ function Works() {
           <br className="md:block-hidden" />
         </div>
       </div>
-      <div className="swiper swiper-initialized swiper-horizontal swiper-pointer-events my-swiper ">
+      <div className="swiper swiper-initialized swiper-horizontal swiper-pointer-events my-swiper">
         <Svayper />
       </div>
     </section>

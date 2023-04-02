@@ -51,7 +51,7 @@ function Svayper() {
             <div className="cardSwiper">
               <div className="slide-opacity">
                 <h4>Development</h4>
-                <div className="slide-opacity-box">
+                <div className={`slide-opacity-box bg-[url(${data})]`}>
                   <div className="w-8 h-8">
                     <span>
                       <img

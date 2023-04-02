@@ -47,11 +47,11 @@ function Svayper() {
       >
         {datas.map((data, index) => (
           <SwiperSlide className="rounded-[30px] !h-60" key={index}>
+            {data}
             <div className="cardSwiper">
               <div className="slide-opacity">
                 <h4>Development</h4>
                 <div className="slide-opacity-box">
-                  {data}
                   <div className="w-8 h-8">
                     <span>
                       <img
@@ -59,8 +59,30 @@ function Svayper() {
                         alt=""
                         decoding="async"
                         data-nimg="intrinsic"
+                        style={{
+                          position: 'absolute',
+                          inset: '0px',
+                          boxSizing: 'border-box',
+                          padding: '0px',
+                          border: 'none',
+                          margin: 'auto',
+                          display: 'block',
+                          width: '0px',
+                          height: '0px',
+                          minWidth: '100%',
+                          maxWidth: ' 100%',
+                          minHeight: '100%',
+                          maxHeight: '100%',
+                        }}
                       />
+                      <noscript></noscript>
                     </span>
+                    <p>{data}</p>
+                    <a
+                      target="_blank"
+                      className="p-5 hover:scale-95 duration-500 bg-[white] rounded-full absolute right-[15px] top-0 transform translate-y-[-50%]"
+                      href="#"
+                    ></a>
                   </div>
                 </div>
               </div>

@@ -12,18 +12,7 @@ import './works.css';
 // import required modules
 import { Autoplay } from 'swiper';
 
-function Svayper() {
-  const datas = [
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fidealcleaning.f150a8b4.jpg&w=640&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffayzbaraka.4b28ceb6.jpg&w=640&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findebt-1.4e4a01c7.jpg&w=640&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimbastudio.f88889bf.jpg&w=1200&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findebt.a68271f0.jpg&w=1200&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsuvtaminoti.e6d0c4ba.jpg&w=1200&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finreport.7f9ad8ab.jpg&w=1200&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flazydev.99b90e27.jpg&w=1200&q=75',
-    'https://www.dotsoft.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmamirovgroup.f46234cc.jpg&w=1200&q=75',
-  ];
+function Svayper({ datas }) {
   return (
     <>
       <Swiper
